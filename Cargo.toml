@@ -24,7 +24,7 @@ rust-embed = { version = "5.5.1", features = ["compression"] }
 chrono = "0.4.11"
 fluent = "0.12"
 unic-langid = "0.9"
-winit = "0.19"
+winit = { git = "https://github.com/matthewbauer/winit", rev = "106ed49761d882ca4e131261b5119c3dd68eeaad" }
 image = "0.23.3"
 glium = "0.24"
 plotters = { git = "https://github.com/matthewbauer/plotters", rev = "3455b78d7202d3677e162905fd0d9ae87aa8c186", default_features = false, features = ["image_encoder", "chrono", "line_series", "palette", "ttf"]}
